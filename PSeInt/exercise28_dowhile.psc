@@ -1,4 +1,4 @@
-Algoritmo exercise28_while
+Algoritmo exercise28_dowhile
 	Definir a,b,n,p,q Como Real
 	a<-1
 	n<-0
@@ -6,12 +6,12 @@ Algoritmo exercise28_while
 	q<-0
 	Escribir 'Input n'
 	Leer n
-	Mientras a<=n Hacer
+	Repetir
 		Escribir 'Input'
 		Leer b
 		p<-p+b
 		a<-a+1
-	FinMientras
+	Hasta Que a>n 
 	q<-p/n
 	Escribir 'Output: ',q
 FinAlgoritmo

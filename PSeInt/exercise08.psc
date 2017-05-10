@@ -1,15 +1,15 @@
-Proceso exercise08
-	Definir a,b,c,p Como Entero;
-	Escribir 'Input';
-	Leer a,b,c;
+Algoritmo exercise08
+	Definir a,b,c,p Como Entero
+	Escribir 'Input:'
+	Leer a,b,c
 	Si a>b & a>c Entonces
-		p<-a;
+		p<-a
 	Sino
 		Si b>a & b>c Entonces
-			p<-b;
+			p<-b
 		Sino
-			p<-c;
+			p<-c
 		FinSi
 	FinSi
-	Escribir 'Output: ',p;
-FinProceso
+	Escribir 'Output: ',p
+FinAlgoritmo

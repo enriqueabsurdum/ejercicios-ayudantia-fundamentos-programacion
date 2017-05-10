@@ -1,10 +1,10 @@
-Proceso exercise10
-	Definir a,p Como Entero;
-	Escribir 'Input';
-	Leer a;
+Algoritmo exercise10
+	Definir a,p Como Entero
+	Escribir 'Input'
+	Leer a
 	Si a>0 Entonces
-		Escribir 'Output: True.';
+		Escribir 'Output: true.'
 	Sino
-		Escribir 'Output: False.';
+		Escribir 'Output: false.'
 	FinSi
-FinProceso
+FinAlgoritmo

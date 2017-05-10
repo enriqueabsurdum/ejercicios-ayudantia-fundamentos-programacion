@@ -1,10 +1,9 @@
-Algoritmo exercise24
+Algoritmo exercise24_dowhile
 	Definir a,p Como Entero
-	a<-1
-	Mientras a<>0 Hacer
+	Repetir
 		Escribir 'Input'
 		Leer a
 		p<-p+1
-	FinMientras
+	Hasta Que a==0
 	Escribir 'Output: ',p-1
 FinAlgoritmo

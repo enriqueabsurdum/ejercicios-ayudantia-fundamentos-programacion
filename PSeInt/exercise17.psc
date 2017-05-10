@@ -1,8 +1,8 @@
-Algoritmo exercise03
-	Definir a,b Como Entero
+Algoritmo exercise17
+	Definir a Como Entero
 	Escribir 'Input:'
-	Leer a,b
-	Si a=b Entonces
+	Leer a
+	Si a MOD 2 == 0 Entonces
 		Escribir 'Output: true.'
 	Sino
 		Escribir 'Output: false.'

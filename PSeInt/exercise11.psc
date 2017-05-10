@@ -1,14 +1,14 @@
-Proceso exercise11
-	Definir a Como Entero;
-	Escribir 'Input';
-	Leer a;
+Algoritmo exercise11
+	Definir a Como Entero
+	Escribir 'Input:'
+	Leer a
 	Si a=0 Entonces
-		Escribir 'Output: None.';
+		Escribir 'Output: none.'
 	Sino
 		Si a>0 Entonces
-			Escribir 'Output: True.';
+			Escribir 'Output: true.'
 		Sino
-			Escribir 'Output: False.';
+			Escribir 'Output: false.'
 		FinSi
 	FinSi	
-FinProceso
+FinAlgoritmo

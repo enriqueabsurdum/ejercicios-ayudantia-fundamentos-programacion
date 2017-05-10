@@ -1,16 +1,17 @@
-Algoritmo exercise02_while
-	Definir a,p,q,r,s,t Como Real
+Algoritmo exercise02_for
+	Definir i,a,p,q,r,s Como Real
 	p<-0
 	q<-1
 	r<-0
-	Mientras r<4 Hacer
+	s<-0
+	Para i<-1 Hasta 4 Con Paso 1 Hacer
 		Escribir 'Input:'
 		Leer a
 		p<-p+a
 		q<-q*a
 		r<-r+1
-	FinMientras
-	s<-p/r;
+	FinPara
+	s<-p/r
 	Escribir 'Output: ',p
 	Escribir 'Output: ',q
 	Escribir 'Output: ',s

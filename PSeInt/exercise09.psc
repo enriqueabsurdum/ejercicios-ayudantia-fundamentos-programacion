@@ -1,19 +1,19 @@
-Proceso exercise09
+Algoritmo exercise09
 	Definir a,b,c,d,p Como Entero;
-	Escribir 'Input';
-	Leer a,b,c,d;
+	Escribir 'Input'
+	Leer a,b,c,d
 	Si a<b & a<c & a<d Entonces
-		p<-a;
+		p<-a
 	Sino
 		Si b<a & b<c & b<d Entonces
-			p<-b;
+			p<-b
 		Sino
 			Si c<a & c<b & c<d Entonces
-				p<-c;
+				p<-c
 			Sino
-				p<-d;
+				p<-d
 			FinSi
 		FinSi
 	FinSi
-	Escribir 'Output: ',p;
-FinProceso
+	Escribir 'Output: ',p
+FinAlgoritmo
