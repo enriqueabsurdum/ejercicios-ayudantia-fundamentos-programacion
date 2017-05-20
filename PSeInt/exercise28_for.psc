@@ -2,7 +2,7 @@ Algoritmo exercise28_for
 	Definir a,b,p,q,n Como Real
 	Escribir 'Input n'
 	Leer n
-	Para a<-1 Hasta n Con Paso 1 
+	Para a<-1 Hasta n Con Paso 1 Hacer
 		Escribir 'Input'
 		Leer b
 		p<-p+b
