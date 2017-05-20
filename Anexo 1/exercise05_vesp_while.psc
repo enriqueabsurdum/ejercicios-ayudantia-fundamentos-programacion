@@ -9,13 +9,13 @@ Algoritmo exercise05_vesp_while
 	Mientras cont<=cantN Hacer
 		Escribir 'Ingresa número ',cont,':'
 		Leer num
-		Si num MOD 2 == 0 Entonces
-			acumPar <- acumPar + num
+		Si num MOD 2==0 Entonces
+			acumPar <- acumPar+num
 		Sino
-			acumImpar <- acumImpar + num
+			acumImpar <- acumImpar+num
 		FinSi
-		Si num MOD 3 == 0 Entonces
-			acumMult <- acumMult + num
+		Si num MOD 3==0 Entonces
+			acumMult <- acumMult+num
 		FinSi
 		cont <- cont+1
 	FinMientras
