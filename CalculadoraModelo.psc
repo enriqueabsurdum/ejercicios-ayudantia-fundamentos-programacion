@@ -54,7 +54,7 @@ Algoritmo CalculadoraModelo
 			0:
 				Escribir "Gracias, hasta luego :)"
 			De Otro Modo:
-				Escribir "¡Debes seleccionar una opción válida :("
+				Escribir "¡Debes seleccionar una opción válida! :("
 		Fin Segun
 		Escribir ""
 	Hasta Que (op == 0)
